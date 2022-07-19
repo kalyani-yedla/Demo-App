@@ -58,6 +58,9 @@
 					<region>us-east-2</region>
 					<workers>1</workers>
 					<objectStoreV2>true</objectStoreV2>
+					<connectedAppClientId>cd4d608addb24fbfa7222506692331f7</connectedAppClientId>
+					<connectedAppClientSecret>9023010c7D254d7098cfB25fAb1848D5</connectedAppClientSecret>
+					<connectedAppGrantType>client_credentials</connectedAppGrantType>
 					</cloudHubDeployment>
 
 					</configuration>
