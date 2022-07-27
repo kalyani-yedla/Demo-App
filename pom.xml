@@ -20,11 +20,11 @@
 
 	<build>
 		<plugins>
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.mule.tools.maven.mule-maven-plugin</groupId>
 				<artifactId>maven-clean-plugin</artifactId>
 				<version>3.0.0</version>
-			</plugin>
+			</plugin> -->
 			<!-- <plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
@@ -36,8 +36,8 @@
 			</plugin> -->
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
+				<artifactId>mule-app-maven-plugin</artifactId>
+				<version>1.7</version>
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
@@ -53,7 +53,6 @@
 						<!-- <connectedAppClientId>cd4d608addb24fbfa7222506692331f7</connectedAppClientId>
 						<connectedAppClientSecret>9023010c7D254d7098cfB25fAb1848D5</connectedAppClientSecret>
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
-						commented
  -->
 					</cloudHubDeployment>
 
